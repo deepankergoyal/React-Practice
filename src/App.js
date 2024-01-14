@@ -1,16 +1,15 @@
 import logo from "./logo.svg";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+
 import "./App.css";
 
 function Heading() {
-  return (
-    <div>
-      <h1>Hello world</h1>
-    </div>
-  );
+  return <Nav value1="Home" value2="Contact" />;
 }
 
 function App() {
-  return <Heading />;
+  return <Footer />;
 }
 
 export default App;
